@@ -261,5 +261,5 @@
 }
 
 @utility btn {
-    @apply clickable h-8 border-2 border-separator px-3 text-base transition-all rounded-full;
+    @apply inline-flex items-center clickable h-12 border border-separator px-3 text-base transition-all;
 }
