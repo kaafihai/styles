@@ -1,9 +1,16 @@
 {
-  "name": "styles",
-  "version": "0.0.1",
+  "name": "@kaafi-hai/styles",
+  "version": "0.0.1-alpha01",
   "description": "",
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "packageManager": "pnpm@10.26.1"
+  "packageManager": "pnpm@10.26.1",
+  "files": [
+    "index.css"
+  ],
+  "main": "index.css",
+  "exports": {
+    ".": "./index.css"
+  }
 }
