@@ -3,8 +3,8 @@
 import * as React from "react"
 import { Dialog as DialogPrimitive } from "@base-ui/react/dialog"
 
-import { cn } from "@/lib/index"
-import { Button } from "@/components/button"
+import { cn } from "../lib"
+import { Button } from "./button"
 import { XIcon } from "@phosphor-icons/react"
 
 function Dialog({ ...props }: DialogPrimitive.Root.Props) {
