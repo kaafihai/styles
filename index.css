@@ -238,7 +238,7 @@
 
 @layer base {
     * {
-        @apply border-separator font-serif selection:bg-primary-300;
+        @apply border-separator font-sans selection:bg-primary-300;
     }
     a {
         @apply clickable underline;
@@ -275,7 +275,7 @@
 }
 
 @utility btn {
-    @apply inline-flex gap-2 items-center clickable h-9 px-3 text-base transition-all [&_svg:not([class*='size-'])]:size-4;
+    @apply inline-flex gap-2 items-center clickable rounded-full h-9 px-3 text-sm transition-all [&_svg:not([class*='size-'])]:size-4;
 }
 
 @utility btn--primary {
